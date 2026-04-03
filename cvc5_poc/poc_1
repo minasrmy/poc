@@ -1,0 +1,1 @@
+(define-fun r((x Int)(y Int))Bool(= 0(+ 0 0)))(declare-fun A()(Bag Int))(declare-fun B()(Bag(Bag Int)))(declare-fun C()(Bag(Bag Int)))(assert(= A(bag.union_disjoint(bag 0 0)(bag(- 0)0)(bag 0 0)(bag(- 0)0)(bag 0 0)(bag(- 0)0))))(assert(= C(bag.partition r(as bag.empty(Bag Int)))))(check-sat)
